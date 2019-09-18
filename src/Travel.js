@@ -86,7 +86,7 @@ export default function TitlebarGridList() {
 
   return (
     <div className={classes.root}>
-      <GridList cellHeight={350} cols= {3} spacing = {10} className={classes.gridList}>
+      <GridList cellHeight={350} cols= {2} spacing = {10} className={classes.gridList}>
         <GridListTile key="Subheader" cols={3} style={{ height: 'auto' }}>
           <ListSubheader color ='primary' component="h2" className={classes.header} > travel with me </ListSubheader>
         </GridListTile>

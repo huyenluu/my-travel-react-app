@@ -2,13 +2,13 @@ import React from 'react';
 
 import './App.css';
 
-import Travel from "./Travel";
+import WorkingState from "./WorkingState";
 
 function App() {
   return (
     <div >
 
-      <Travel/>  
+      <WorkingState/>  
 
     </div>
     

@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -50,4 +50,44 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+/* simpson working or taking break */
+
+.workOrBreak button {
+  position: absolute;
+  left: 20px;
+  top: 50px;
+  border: none;
+  padding: 5px 10px;
+  color: #fff;
 }
+.workOrBreak button.work{
+  background: aqua;
+}
+.workOrBreak button.break{
+  background: green;
+}
+.workOrBreak img.work {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+.workOrBreak img.break {
+  height: 40vmin;
+  pointer-events: none;
+}
+.workOrBreak img{
+  height: 400px;
+  width: 400px;
+  margin-left: 50px;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
